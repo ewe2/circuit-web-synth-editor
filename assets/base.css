@@ -1,0 +1,97 @@
+html, body {
+  background: #21252b;
+  font-family: Sans-serif;
+  color: #abb2bf;
+}
+
+h1 small {
+    font-size: 20px;
+}
+
+fieldset {
+    background:#282c34;
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+fieldset > legend {
+    color: #f7f7f8;
+    margin: 0;
+}
+
+label {
+    margin-top: 14px;
+    margin-bottom: .35rem;
+}
+
+select {
+    min-width: 200px;
+}
+
+.bg-dark {
+    background-color: #21252b !important;
+}
+
+.flex-column * {
+    margin: 5px 0;
+}
+
+.tab-content select {
+    width: 100%;
+}
+
+.patchName {
+    background-color: #282c34;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav > a > img{
+    width: 25px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+#synth, #category {
+    background-color: #282c34;
+
+    border: none;
+    padding: 10px 8px;
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    min-width: auto;
+}
+
+.synth-tabs.nav-pills a.nav-link, .fixedBtn {
+    background-color: #282c34;
+    color: white;
+}
+.synth-tabs.nav-pills a.nav-link.active {
+    background-color: white;
+    color: black;
+}
+.synth-tabs .nav-item, .fixedBtn {
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.synth1 a.nav-link{
+    color: #ff00ff;
+}
+.synth2 a.nav-link{
+    color: #00ff80;
+}
+
+.synth1 a.nav-link.active {
+    background: #ff00ff;
+    color: black;
+}
+.synth2 a.nav-link.active  {
+    background: #00ff80;
+    color: black;
+}
